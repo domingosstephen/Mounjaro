@@ -3,12 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us - SlimFit Pharma</title>
-  <meta name="description" content="Get in touch with SlimFit Pharma. Questions about Mounjaro, peptides, or orders? We're here to help.">
+  <title>Request a Quote - SlimFit Pharma</title>
+  <meta name="description" content="Get in touch with SlimFit Pharma. Request a quote for research peptides and wellness solutions.">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+  <!-- ANNOUNCEMENT BAR -->
+  <div class="announcement-bar">
+    <span>All products are intended strictly for laboratory research purposes only.</span>
+  </div>
 
   <!-- HEADER -->
   <header>
@@ -19,7 +24,7 @@
         <li><a href="products.html">Products</a></li>
         <li><a href="how-it-works.html">How It Works</a></li>
         <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact.html" class="btn btn-primary nav-cta active">Get Started</a></li>
+        <li><a href="contact.html" class="btn btn-primary nav-cta active">Request a Quote</a></li>
       </ul>
       <button class="hamburger" aria-label="Toggle menu">
         <span></span><span></span><span></span>
@@ -30,8 +35,8 @@
   <!-- PAGE HEADER -->
   <div class="page-header">
     <div class="container">
-      <h1>Get in Touch</h1>
-      <p>Have a question or ready to order? We're here to help.</p>
+      <h1>Request a Quote</h1>
+      <p>Tell us what you need and we'll get back to you with pricing within 24 hours.</p>
     </div>
   </div>
 
@@ -43,7 +48,7 @@
         <!-- FORM -->
         <div>
           <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 8px;">Send Us a Message</h2>
-          <p style="color: var(--gray); margin-bottom: 32px; font-size: 0.95rem;">Fill out the form below and we'll get back to you within 24 hours.</p>
+          <p style="color: var(--gray); margin-bottom: 32px; font-size: 0.95rem;">Fill out the form below and we'll get back to you within 24 hours with a personalized quote.</p>
 
           <form action="#" method="POST">
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
@@ -68,9 +73,11 @@
               <label for="interest">What are you interested in?</label>
               <select id="interest" name="interest" required>
                 <option value="" disabled selected>Select an option</option>
-                <option value="mounjaro">Mounjaro</option>
-                <option value="wegovy">Wegovy</option>
-                <option value="peptides">Research Peptides</option>
+                <option value="weight-loss-peptides">Weight Loss Peptides</option>
+                <option value="recovery-peptides">Recovery & Healing Peptides</option>
+                <option value="growth-hormone-peptides">Growth Hormone Peptides</option>
+                <option value="neuropeptides">Neuropeptides & Nootropics</option>
+                <option value="anti-aging">Anti-Aging & Wellness</option>
                 <option value="multiple">Multiple Products</option>
                 <option value="bulk">Bulk / Wholesale Order</option>
                 <option value="other">Other / General Question</option>
@@ -78,9 +85,9 @@
             </div>
             <div class="form-group">
               <label for="message">Message</label>
-              <textarea id="message" name="message" placeholder="Tell us how we can help you..." required></textarea>
+              <textarea id="message" name="message" placeholder="Tell us which products you're interested in, quantities needed, and any questions you have..." required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Request Quote</button>
           </form>
         </div>
 
@@ -112,16 +119,16 @@
           </div>
 
           <div class="contact-info-card">
-            <h3>Qualification Process</h3>
+            <h3>How Pricing Works</h3>
             <p style="font-size: 0.9rem; color: var(--gray); line-height: 1.7;">
-              Interested in Mounjaro or Wegovy? Our team will guide you through the qualification process to determine your eligibility. Simply send us a message and we'll take it from there.
+              We provide personalized quotes based on your specific product needs and quantities. Simply tell us what you're looking for and we'll send you a detailed quote with competitive pricing. Bulk discounts are available on all products.
             </p>
           </div>
 
           <div class="contact-info-card">
             <h3>Wholesale Inquiries</h3>
             <p style="font-size: 0.9rem; color: var(--gray); line-height: 1.7;">
-              Looking for bulk peptide orders? We offer tiered pricing starting at 5+ units. Contact us with your requirements for a custom quote.
+              Looking for bulk peptide orders? We offer tiered wholesale pricing for larger quantities. Contact us with your requirements for a custom quote tailored to your research needs.
             </p>
           </div>
         </div>
@@ -130,19 +137,57 @@
     </div>
   </section>
 
+  <!-- ICON BOX BAR -->
+  <div class="icon-box-bar">
+    <div class="container">
+      <div class="icon-box-grid">
+        <div class="icon-box">
+          <div class="icon-box-icon"><i class="fa-solid fa-headset"></i></div>
+          <div>
+            <h4>Customer Service</h4>
+            <p>Our team of experts is always on standby should you need us.</p>
+          </div>
+        </div>
+        <div class="icon-box">
+          <div class="icon-box-icon"><i class="fa-solid fa-truck-fast"></i></div>
+          <div>
+            <h4>Fast Shipping</h4>
+            <p>Get your orders shipped quickly with full tracking.</p>
+          </div>
+        </div>
+        <div class="icon-box">
+          <div class="icon-box-icon"><i class="fa-solid fa-rotate-left"></i></div>
+          <div>
+            <h4>Returns Policy</h4>
+            <p>See our return policy for details on eligible returns.</p>
+          </div>
+        </div>
+        <div class="icon-box">
+          <div class="icon-box-icon"><i class="fa-solid fa-lock"></i></div>
+          <div>
+            <h4>Secure Payment</h4>
+            <p>Your payment information is processed securely.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- FOOTER -->
   <footer>
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="logo">SlimFit<span>Pharma</span></div>
-          <p>Clinically-backed weight loss solutions delivered with care. Your trusted partner on the path to a healthier you.</p>
+          <p>Premium research peptides and wellness solutions delivered with care. Your trusted research partner.</p>
+          <p class="footer-disclaimer">All products sold on this website are intended for research and identification purposes only. These products are not intended for human dosing, injection, or ingestion.</p>
         </div>
         <div class="footer-col">
           <h4>Products</h4>
-          <a href="products.html">Mounjaro</a>
-          <a href="products.html">Wegovy</a>
-          <a href="products.html">Peptides</a>
+          <a href="products.html">Weight Loss Peptides</a>
+          <a href="products.html">Recovery Peptides</a>
+          <a href="products.html">Growth Hormone Peptides</a>
+          <a href="products.html">All Products</a>
         </div>
         <div class="footer-col">
           <h4>Company</h4>
