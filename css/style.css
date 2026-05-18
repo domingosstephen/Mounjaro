@@ -379,7 +379,8 @@ section { padding: 80px 0; }
   color: var(--dark);
 }
 
-.feature-banner.dark-overlay .feature-banner-bg img { opacity: 0.4; }
+.feature-banner.dark-overlay .feature-banner-bg img { opacity: 0.2; }
+.feature-banner.dark-overlay { background: #0a0a0a; }
 .feature-banner.dark-overlay .feature-banner-content { color: var(--white); }
 
 .feature-banner-content .feature-label {
